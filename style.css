@@ -1,0 +1,48 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 50px;
+  font-weight: 900;
+  color: darkgreen;
+    
+}
+h2{
+    font-size: 40px;  
+    color: black;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.top-banner{
+    border: 1px;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+    
+.pink-highlight{
+  color: lightseagreen;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.half-width img{
+    width: 100%;
+}
+p{
+    color: slategray;
+    padding-bottom: 30px;
+
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
