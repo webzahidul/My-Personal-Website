@@ -5,11 +5,13 @@ h1{
     font-size: 50px;
   font-weight: 900;
   color: darkgreen;
+  
     
 }
 h2{
     font-size: 40px;  
     color: black;
+    
 }
 .half-width{
     width: 40%;
@@ -17,11 +19,6 @@ h2{
     margin-left: 5%;
     padding-left: 2%;
 }
-.top-banner{
-    border: 1px;
-    background-image: url("images/header-bg.png");
-    background-repeat: no-repeat;
-    background-position:left;
     
 .pink-highlight{
   color: lightseagreen;
@@ -35,14 +32,109 @@ h2{
     font-weight: 700;
 }
 .half-width img{
-    width: 100%;
+    width: 70%;
 }
 p{
     color: slategray;
-    padding-bottom: 30px;
+    padding-right: 10%;
+    padding-bottom: 20px;
 
 }
 section{
     height: 500px;
-    padding-bottom: 150px;
+    padding: 0px;
+  
+}
+
+.top-banner{
+    
+    margin: 20px 20px;
+    margin-bottom: 0px;
+    background-image: url(images/header-bg.png);
+    background-size: 90%;
+    padding-left: 80px;
+    padding-top: 150px;
+    padding-bottom: 0%;
+    background-repeat: no-repeat;
+
+}
+
+.lower-banner{
+    margin: 20px 20px;
+    margin-top: 0%;
+    
+    padding-top: 60px;
+    background-image: url(images/biography-bg.png);
+    
+    background-position: 20%;
+    background-size: 100%;
+    background-repeat: no-repeat
+    
+} 
+.work-detail{
+    text-align: center;
+   margin-top: 80px;
+}
+.background-image{
+    background-image: url(images/latest-work-bg.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.column{
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+.client-comment{
+    text-align: center;
+    margin-top: 80px;
+ }
+.last-background{
+    background-image: url(images/footer-bg.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: right;  
+    text-align: justify;
+}
+h3{
+    
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0%;
+}
+.ceo{
+text-align: center;
+padding-left: 120px;
+}
+.last-paragraph{
+    text-align: center;
+   padding-right: 35%;
+   padding-left: 35%;
+}
+.message{
+    margin-left: 450px;
+    text-decoration: none;
+    background-color: rgb(172, 133, 167);
+    padding: 30px 20px;
+    border-radius: 5px;
+    color: white;
+    background-position: center;
+   text-align: center;
+   width: 30%;
+   scroll-padding-bottom: 0px;
+
+   
+}
+h4{
+    margin-left: 450px;
+    text-decoration: none;
+    background-color: rgb(172, 133, 167);
+    padding: 30px 20px;
+    border-radius: 5px;
+    color: white;
+    background-position: center;
+   text-align: center;
+   width: 30%;
+   scroll-padding-top: 0px;
 }
